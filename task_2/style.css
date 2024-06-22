@@ -1,34 +1,54 @@
 body{
-    background-color:#686D76 ;
+    background-color:#13005A ;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 50px;
+    text-shadow:   1px 3px #1C82AD, 2px 4px 5px  #03C988
 }
 .container{
     padding: 10px;
     width: 400px;
     height: 400px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 40px;
     border:2px solid #686D76;
-    box-shadow: 3px 3px 5px 3px #EEEEEE;
+    box-shadow: 3px 3px 5px 3px #1C82AD;
     background-color: transparent;
     align-items: center;
+    border-radius: 10px;
 }
 button{
     margin:5px 5px 2px 25px;
-    background-color:#373A40 ;
+    background-color:#00337C ;
     color: #EEEEEE;
     height: 60px;
     width: 60px;
     align-self: center;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px #EEEEEE;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #1C82AD;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 input{
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 8px;
     text-align: right;
     width: 380px;
     height: 50px;
     align-self: center;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #13005A;
+}
+.btn-color{
+    background-color: #03C988
+}
+.btn-color1{
+    background-color: #1C82AD;
 }
