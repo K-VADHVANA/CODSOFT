@@ -45,6 +45,7 @@ input{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: #13005A;
+    box-shadow: 2px 2px 2px #1C82AD;
 }
 .btn-color{
     background-color: #03C988
